@@ -6,6 +6,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">freight</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_move" model="product.product">
         <field name="name">Move</field>
@@ -13,6 +14,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">move</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_insurance" model="product.product">
         <field name="name">Insurance</field>
@@ -20,6 +22,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">insurance</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_highway_tolls" model="product.product">
         <field name="name">Highway Tolls</field>
@@ -27,6 +30,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">tolls</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_other" model="product.product">
         <field name="name">Other</field>
@@ -34,6 +38,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">other</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_real_expense" model="product.product">
         <field name="name">Real Expense</field>
@@ -41,6 +46,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">real_expense</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_fuel" model="product.product">
         <field name="name">Fuel</field>
@@ -48,6 +54,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">fuel</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_fuel_cash" model="product.product">
         <field name="name">Fuel in Cash</field>
@@ -55,6 +62,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">fuel_cash</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_salary" model="product.product">
         <field name="name">Salary</field>
@@ -62,6 +70,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">salary</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_retention" model="product.product">
         <field name="name">Salary Retention</field>
@@ -69,6 +78,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">salary_retention</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_discount" model="product.product">
         <field name="name">Salary Discount</field>
@@ -76,6 +86,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">salary_discount</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_madeup" model="product.product">
         <field name="name">Made Up Expense</field>
@@ -83,6 +94,7 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">made_up_expense</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_other_income" model="product.product">
         <field name="name">Other Income</field>
@@ -90,12 +102,14 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">other_income</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_ieps" model="product.product">
         <field name="name">IEPS</field>
         <field name="type">service</field>
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
     <record id="product_loan" model="product.product">
         <field name="name">Loan</field>
@@ -103,5 +117,6 @@
         <field eval="False" name="purchase_ok"/>
         <field eval="False" name="sale_ok"/>
         <field name="tms_product_category">loan</field>
+        <field name="categ_id" ref="product.product_category_all"/>
     </record>
 </odoo>
